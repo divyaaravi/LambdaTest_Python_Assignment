@@ -18,7 +18,7 @@ class LambdaTest(unittest.TestCase):
             'LT:Options': {
                 "user": username,
                 "accessKey": access_key,
-                "build": "Assignment",
+                "build": "LambdaTest_Assignment",
                 "name": "LambdaTest",
                 "platformName": "Windows 10",
             },
