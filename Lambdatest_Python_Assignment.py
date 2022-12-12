@@ -72,8 +72,8 @@ class LambdaTest(unittest.TestCase):
 
         driver.find_element(By.ID, "inputEmail4").send_keys("abc@gmail.com")
         driver.find_element(By.ID, "inputPassword4").send_keys("abc123")
-        driver.find_element(By.NAME, "company").send_keys("Mindtree")
-        driver.find_element(By.NAME, "website").send_keys("www.mindtree.com")
+        driver.find_element(By.NAME, "company").send_keys("abc")
+        driver.find_element(By.NAME, "website").send_keys("www.abc.com")
 
         select = Select(driver.find_element(By.NAME, 'country'))
         select.select_by_visible_text('India')
